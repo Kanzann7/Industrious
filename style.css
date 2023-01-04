@@ -1,0 +1,204 @@
+/* GENERAL */
+*{
+    margin: 0;
+}
+
+
+
+/* HEADER*/
+
+
+
+
+header{
+    background-image: linear-gradient( 120deg, rgba(228, 13, 13, 0.6), rgba(112, 122, 181, 0.6)), url("./banner.jpg");
+    height: 500px;
+    background-size:cover ;
+ 
+    
+}
+
+
+  
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    
+    background-color: black;
+    padding: 16px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+
+.gauche{
+    color: white;
+}
+
+.droite{
+    color: gray;
+}
+
+
+.titre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    
+
+}
+
+.titre h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+    
+.titre h2{
+    color: white;
+}
+
+
+.menu{
+    color: grey;
+    
+}
+/* SECTION */
+
+section{
+    background-color: lightgrey;
+}
+
+
+.titre2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.titre2 h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: grey;
+}
+
+.titre2 h2{
+    font-size: 20px;
+    color: grey;
+}
+
+
+.blocs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+ 
+
+    
+}
+
+.bloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.first{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.second{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+}
+
+.third{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+}
+
+.four{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+}
+
+.five{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+}
+
+.six{
+    height: 360px;
+    width: 350px;
+    background-color: white;
+}
+
+.card{
+    color: rgb(190, 11, 11);
+    font-size: 100px;
+   
+}
+
+.text
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+   
+}
+.text h1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.chipotage{
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+    background-image: linear-gradient(
+        120deg, rgba(228, 13, 13, 0.6), rgba(112, 122, 181, 0.6)), url("./banner.jpg");
+    background-position: bottom;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+footer img{
+    border-radius: 20px;
+    height: 225px;
+    width: 225px;
+   
+}
+
